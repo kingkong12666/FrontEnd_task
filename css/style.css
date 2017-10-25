@@ -1,0 +1,542 @@
+body{
+	background-color: white;
+}
+@media(min-width: 1024px){
+	header{
+		width: 100%;
+		height: 79px;
+	}
+	.logo{
+		float: left;
+	    width: 68px;
+	    height: 90px;
+	    position: relative;
+	    left: 43px;
+	    bottom: 5px;
+	    
+	}
+	header > span {
+		font-family: GothamProBold;
+	    position: relative;
+	    left: 72px;
+	    top: 31px;
+	    font-size: 18px;
+	    font-weight: bold;
+	    color: #646464;
+	}
+	
+	.menu{
+		display: block;
+
+	}
+
+	.menu li{
+	    position: relative;
+	    font-size: 14px;
+	    float: right;
+	    padding: 9px;
+	    list-style: none;
+	}
+
+	.menu a{
+	    font-family: GothamProBold;
+	    text-decoration: none;
+	    font-size: 14px;
+	    position: relative;
+	    top: 6px;
+	    right: 25px;
+	    letter-spacing: 1px;
+	    color: #646464;
+	}
+
+	.menu a:active{
+		color: #545ad8;
+	}
+
+	.titleSlider{
+		z-index: 3;
+	    position: relative;
+	    font-family: GothamProBold;
+	    color: white;
+	    height: 47px;
+	    bottom: 355px;
+	    width: 372px;
+	    margin: 0 auto;
+	    font-size: 45px;
+	    letter-spacing: 5px;
+	    left: 29px;
+	}
+
+	.Lorem{
+	    z-index: 3;
+	    position: relative;
+	    font-family: "GothamProRegular";
+	    color: white;
+	    height: 47px;
+	    bottom: 345px;
+	    width: 350px;
+	    margin: 0 auto;
+	    font-size: 16px;
+	    letter-spacing: 5px;
+	    left: 15px;
+	}
+
+
+	.flexslider input{
+	    z-index: 3;
+	    width: 165px;
+	    height: 50px;
+	    font-size: 16px;
+	    color: white;
+	    border: 1px solid white;
+	    background-color: #646464;
+	    border-radius: 25px;
+	    position: relative;
+	    bottom: 240px;
+	    
+	}
+
+
+	.mini{
+		position: relative;
+	    bottom: 145px;
+	    
+	    font-size: 24px;
+	    color: #646464;
+	    font-family: GothamProBold;
+	}
+
+	.jcarousel img {
+    	display: block;
+    	max-width: 80%;
+    	height: auto !important;
+    	margin-left: 40px;
+	}
+
+	.jcarousel-control-next {
+	    top: 102px;
+	    right: -3px;
+	    color: #acacac;
+	    background-color: white;
+	    border: 1px solid #acacac;
+	}
+	.jcarousel-control-prev {
+	    top: 102px;
+	    left: -3px;
+	    color: #acacac;
+	    background-color: white;
+	    border: 1px solid #acacac;
+	}
+	.colums{
+		position: relative;
+	    
+	    font-size: 24px;
+	    color: #646464;
+	    font-family: GothamProBold;
+	}
+	.fon {
+		width: 100%;
+		background: url(../img/fon.png) repeat-y; 
+		float: left;
+		position: relative;
+		top: 15px;
+	}
+
+	.left_col {
+	    width: 31%;
+	    float: left;
+	    font-family: "GothamProRegular";
+	    margin-right: 11px;
+	    margin-left: 9px;
+
+	}
+
+	.center_col {
+	    width: 33%;
+	    float: left;
+	    font-family: "GothamProRegular";
+	}
+
+	.right_col {
+	    width: 33%;
+	    float: right;
+	    font-family: "GothamProRegular";
+	}
+
+	.article{
+		position: relative;	    
+	    font-size: 24px;
+	    color: #646464;
+	    font-family: GothamProBold;
+	    top: 10px;
+	}
+
+
+	.title{
+		font-family: GothamProBold;
+		font-size: 20px;
+
+	}
+
+	.text{
+		margin: 20px;
+		padding: 20px;	    
+	    font-size: 14px;
+	    font-family: GothamProRegular;
+		
+	}
+}	
+
+
+@media(max-width: 1024px){
+
+	header{
+		width: 100%;
+		height: 79px;
+	}
+	.logo{
+	    float: left;
+	    width: 68px;
+	    height: 90px;
+	    position: relative;
+	    left: 51px;
+	    bottom: 3px;
+	    
+	}
+	header > span{
+		font-family: GothamProBold;
+	    position: relative;
+	    left: 72px;
+	    top: 31px;
+	    font-size: 18px;
+	    font-weight: bold;
+	    color: #646464;
+	}
+	
+	.menu{
+		display: block;
+
+	}
+
+	.menu li{
+	    position: relative;
+	    font-size: 14px;
+	    float: right;
+	    padding: 9px;
+	    list-style: none;
+	}
+
+	.menu a{
+	    font-family: GothamProBold;
+	    text-decoration: none;
+	    font-size: 14px;
+	    position: relative;
+	    top: 6px;
+	    right: 25px;
+	    letter-spacing: 1px;
+	    color: #646464;
+	}
+
+	.menu a:active{
+		color: #545ad8;
+	}
+
+	.titleSlider{
+		z-index: 3;
+	    position: relative;
+	    font-family: GothamProBold;
+	    color: white;
+	    height: 47px;
+	    bottom: 355px;
+	    width: 372px;
+	    margin: 0 auto;
+	    font-size: 45px;
+	    letter-spacing: 5px;
+	    left: 29px;
+	}
+
+	.Lorem{
+	    z-index: 3;
+	    position: relative;
+	    font-family: "GothamProRegular";
+	    color: white;
+	    height: 47px;
+	    bottom: 345px;
+	    width: 350px;
+	    margin: 0 auto;
+	    font-size: 16px;
+	    letter-spacing: 5px;
+	    left: 15px;
+	}
+
+
+	.flexslider input{
+	    z-index: 3;
+	    width: 165px;
+	    height: 50px;
+	    font-size: 16px;
+	    color: white;
+	    border: 1px solid white;
+	    background-color: #646464;
+	    border-radius: 25px;
+	    position: relative;
+	    bottom: 225px;
+	    left: 10px;
+	}
+
+
+	.mini{
+		position: relative;
+	    bottom: 145px;
+	    
+	    font-size: 24px;
+	    color: #646464;
+	    font-family: GothamProBold;
+	}
+
+	.colums{
+		position: relative;
+	    
+	    font-size: 24px;
+	    color: #646464;
+	    font-family: GothamProBold;
+	}
+	.fon {
+		width: 100%;
+		background: url(../img/fon.png) repeat-y; 
+		float: left;
+		position: relative;
+		top: 15px;
+	}
+
+	.left_col {
+	    width: 31%;
+	    float: left;
+	    font-family: "GothamProRegular";
+	    margin-right: 11px;
+	    margin-left: 9px;
+
+	}
+
+	.center_col {
+	    width: 33%;
+	    float: left;
+	    font-family: "GothamProRegular";
+	}
+
+	.right_col {
+	    width: 33%;
+	    float: right;
+	    font-family: "GothamProRegular";
+	}
+
+	.article{
+		position: relative;	    
+	    font-size: 24px;
+	    color: #646464;
+	    font-family: GothamProBold;
+	    top: 10px;
+	}
+
+
+	.title{
+		font-family: GothamProBold;
+		font-size: 20px;
+
+	}
+
+	.text{
+		margin: 15px;
+		padding: 15px;	    
+	    font-size: 14px;
+	    font-family: GothamProRegular;
+		
+	}
+}
+
+@media(max-width: 850px){
+
+	header{
+		width: 100%;
+		height: 79px;
+	}
+	.logo{
+	    float: left;
+	    width: 68px;
+	    height: 90px;
+	    position: relative;
+	    left: 51px;
+	    bottom: 3px;
+	    
+	}
+	header span{
+		font-family: GothamProBold;
+	    position: relative;
+	    left: 72px;
+	    top: 31px;
+	    font-size: 18px;
+	    font-weight: bold;
+	    color: #646464;
+	}
+	
+	.menu{
+		position: relative;
+    	top: 40px;
+
+	}
+
+	.menu li{
+	    position: relative;
+	    font-size: 14px;
+	    float: right;
+	    padding: 9px;
+	    list-style: none;
+	}
+
+	.menu a{
+	    font-family: GothamProBold;
+	    text-decoration: none;
+	    font-size: 14px;
+	    position: relative;
+	    top: 6px;
+	    right: 25px;
+	    letter-spacing: 1px;
+	    color: #646464;
+	}
+
+	.menu a:active{
+		color: #545ad8;
+	}
+	
+	.flex-control-nav {
+	    width: 100%;
+	    position: absolute;
+	    bottom: 169px;
+	    text-align: center;
+	    z-index: 2;
+	    left: 8px;
+	}
+
+
+	.flexslider {
+	    margin: 0 0 60px;
+	    background: #fff;
+	    border: 4px solid #fff;
+	    position: relative;
+	    zoom: 1;
+	    top: 34px;
+	}
+
+	.titleSlider{
+	    z-index: 3;
+	    position: relative;
+	    font-family: GothamProBold;
+	    color: white;
+	    height: 47px;
+	    bottom: 227px;
+	    width: 372px;
+	    margin: 0 auto;
+	    font-size: 30px;
+	    letter-spacing: 5px;
+	    left: 73px;
+	}
+
+	.Lorem{
+		z-index: 3;
+	    position: relative;
+	    font-family: "GothamProRegular";
+	    color: white;
+	    height: 47px;
+	    bottom: 226px;
+	    width: 350px;
+	    margin: 0 auto;
+	    font-size: 10px;
+	    letter-spacing: 5px;
+	    left: 15px;
+	}
+
+
+	.flexslider input{
+	    z-index: 3;
+	    width: 90px;
+	    height: 26px;
+	    font-size: 12px;
+	    color: white;
+	    border: 1px solid white;
+	    background-color: #646464;
+	    border-radius: 25px;
+	    position: relative;
+	    bottom: 205px;
+
+	}
+
+
+
+	.mini{
+		position: relative;
+	    font-size: 24px;
+	    color: #646464;
+	    font-family: GothamProBold;
+	}
+
+	.colums{
+		position: relative;
+	    
+	    font-size: 24px;
+	    color: #646464;
+	    font-family: GothamProBold;
+	}
+	.fon {
+		width: 100%;
+		background: url(../img/fon.png) repeat-y; 
+		float: left;
+		position: relative;
+		top: 15px;
+	}
+
+	.left_col {
+	    width: 31%;
+	    float: left;
+	    font-family: "GothamProRegular";
+	    margin-right: 11px;
+	    margin-left: 9px;
+
+	}
+
+	.center_col {
+	    width: 33%;
+	    float: left;
+	    font-family: "GothamProRegular";
+	}
+
+	.right_col {
+	    width: 31%;
+	    float: right;
+	    font-family: "GothamProRegular";
+	}
+
+	.article{
+		position: relative;	    
+	    font-size: 24px;
+	    color: #646464;
+	    font-family: GothamProBold;
+	    top: 10px;
+	}
+
+
+	.title{
+		font-family: GothamProBold;
+		font-size: 20px;
+
+	}
+
+	.text{
+		margin: 15px;
+		padding: 15px;	    
+	    font-size: 14px;
+	    font-family: GothamProRegular;
+		
+	}
+}
+
+
